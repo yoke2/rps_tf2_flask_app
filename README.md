@@ -17,8 +17,9 @@ Model is then downloaded from Google Colab
 ## Local Installation
 
 ### Clone the repo
-```shell
-$ git clone https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
+
+```
+$ git clone https://github.com/yoke2/rps_tf2_flask_app.git
 ```
 
 ### Install requirements
@@ -35,14 +36,17 @@ Make sure you have the following installed:
 
 ### Model Generation
 1. Run Notebook in Google Colab
-2. Download `rps.h5` model and put in models folder
+2. Download `rps.h5` model and put in models folder (already provided)
 
 ### Run with Python
 
 Python 3.7+ is tested.
 
 1. Execute below line in command line
+
+```
 $ python app.py
+```
 
 2. Open http://localhost:5000 and run the application
 -------------------
