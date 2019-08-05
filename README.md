@@ -1,4 +1,4 @@
-# Deploy Rock, Paper, Scissors Classifier App using Tensorflow 2 and Flask
+# Rock, Paper, Scissors Classifier App using Tensorflow 2 and Flask
 
 ------------------
 ## Introduction
@@ -24,6 +24,8 @@ $ git clone https://github.com/yoke2/rps_tf2_flask_app.git
 
 ### Install requirements
 
+Note: Python 3.x and pip is required to be installed
+
 ```
 $ pip install -r requirements.txt
 ```
@@ -48,10 +50,11 @@ Python 3.7+ is tested.
 $ python app.py
 ```
 
-2. Open http://localhost:5000 and run the application
+2. Open http://localhost:5000 in your browser to run the application
 -------------------
 
 ## References:
 - Original Rock Paper Scissors Notebook by Laurence Moroney [here](https://github.com/lmoroney/io19/tree/master/Zero%20to%20Hero)
 - Original image classifier template [here](https://github.com/mtobeiyf/keras-flask-deploy-webapp)
+- Image classifier template updated for TF2 [here](https://github.com/yoke2/tf2-keras-flask-deploy-webapp)
 - Tensorflow 2 beta reference [here](https://www.tensorflow.org/beta)
